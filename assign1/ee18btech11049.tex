@@ -170,7 +170,7 @@ So ,  \textbf{join} will append list m to the end of list n for all inputs .
 \newline
 \textbf{ Explanation : }  
 \begin{itemize}
-    \item Creating two random lists 
+    \item Creating two random lists : \textbf{list 1}, \textbf{list 2} .
     
     \begin{figure}[!h]
         \centering
@@ -239,8 +239,28 @@ So ,  \textbf{join} will append list m to the end of list n for all inputs .
 \caption{Final Result } \label{fig:tree1}
 \end{figure}
 
-
  So the list1 will get appended to list2 . 
+ 
+ \subsection{Time Complexity Analysis}
+ 
+ Considering the part of code below . 
+ 
+ \begin{lstlisting}
+while(p->next != NULL)
+        p = p -> next;
+    p->next = m ;
+
+\end{lstlisting}
+
+The while loop terminates after pointer p reaches NULL , which happens at the end of linked list 2.
+Assuming Length of list2 is n . 
+\newline
+The worst Case Time Complexity of above code is  $\mathcal{O}(n)$.
+ 
+ 
+ 
+
+ 
 
 
 \end{document}
