@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.29)  31 AUG 2021 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.8.29)  31 AUG 2021 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1677,20 +1677,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 266.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 266.
  (./ee18btech11049.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
-Package rerunfilecheck Info: File `ee18btech11049.out' has not changed.
-(rerunfilecheck)             Checksum: 49E086196A2DD888A0A66D907A970CB2;140.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 266.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 266.
+
+
+Package rerunfilecheck Warning: File `ee18btech11049.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ee18btech11049.out':
+(rerunfilecheck)             Before: 49E086196A2DD888A0A66D907A970CB2;140
+(rerunfilecheck)             After:  71AC76FB3975E12C2BA9D8224434E269;213.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 266.
  ) 
 Here is how much of TeX's memory you used:
- 40808 strings out of 481239
- 927032 string characters out of 5920377
+ 40812 strings out of 481239
+ 927091 string characters out of 5920377
  1392836 words of memory out of 5000000
- 55230 multiletter control sequences out of 15000+600000
+ 55229 multiletter control sequences out of 15000+600000
  592677 words of font info for 149 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,8n,91p,461b,1261s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1701,10 +1708,10 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 fonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ee18btech11049.pdf (1 page, 47686 bytes).
+Output written on ee18btech11049.pdf (1 page, 50369 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
