@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+// Defining Singly linked List Structure  
 typedef struct node{
     int data;
     struct node* next;
 
 } node;
 
+// Given function to join two lists
 void join(node* m, node* n){
     node* p = n;
     while(p->next != NULL){
@@ -17,12 +20,13 @@ void join(node* m, node* n){
 
 int main(){
 
-    struct node* head = (struct node*) malloc(sizeof(struct node));
+    // creating Linked list nodes 
+    struct node* head = (struct node*) malloc(sizeof(struct node));  
     struct node* second = (struct node*) malloc(sizeof(struct node));
     struct node* head2 = (struct node*) malloc(sizeof(struct node));
     struct node* second2 = (struct node*) malloc(sizeof(struct node));
     
-
+    // updating values and connecting list nodes
     head -> data = 12;
     head->next = second;
     second->data = 99;
@@ -37,8 +41,8 @@ int main(){
     struct node* m = head;
     struct node* n = head2;
     
-
-    join(m,n);
+// Calling Join Function and Printig values 
+    join(m,n);  
     while(n != NULL  ){
         printf(" %d", n -> data);
         n = n -> next;
